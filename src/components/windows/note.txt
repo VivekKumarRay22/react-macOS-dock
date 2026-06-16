@@ -1,0 +1,5 @@
+# used react-rnd to use draggable and resizeable 
+# added define: {
+    'process.env': {}
+  } --> cause draggbale was not working
+
