@@ -1,0 +1,165 @@
+/**
+
+* @file: profile.config.ts
+* @author: Vivek Kumar Ray
+* @summary: An aspiring full-stack developer building modern web experiences.
+  */
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+frontend: [
+"HTML5",       // 95%
+"CSS3",        // 90%
+"TailwindCSS", // 85%
+"SCSS",        // 80%
+"JavaScript",  // 85%
+"React.js",    // 80%
+],
+
+backend: [
+"Node.js",     // 75%
+"Express.js",  // 75%
+"EJS",         // 80%
+],
+
+database: [
+"MySQL",       // 70%
+"PostgreSQL",  // 65%
+],
+
+tools: [
+"Git",
+"GitHub",
+"VS Code",
+"Linux",
+"Figma"
+]
+};
+
+// --------------------------------------------------
+// 2. DEVELOPER JOURNEY
+// --------------------------------------------------
+
+class DeveloperJourney {
+
+/**
+
+* CURRENT STATUS
+* @period 2025 - Present
+  */
+
+public async SheryiansCodingSchool(): Promise<Progress> {
+
+```
+const role = "Full Stack Web Development Student";
+
+const learning = [
+  "React",
+  "Node.js",
+  "Express.js",
+  "Context API",
+  "React Router",
+  "SCSS"
+];
+
+const projects = [
+  "React MacOS Clone",
+  "Product Store",
+  "Anime Blog",
+  "GitHub Portfolio"
+];
+
+return {
+  role,
+  learning,
+  projects
+};
+```
+
+}
+}
+
+// --------------------------------------------------
+// 3. FEATURED PROJECTS
+// --------------------------------------------------
+
+const projects = [
+
+{
+title: "React MacOS Clone",
+stack: ["React", "SCSS", "JavaScript"]
+},
+
+{
+title: "Product Store",
+stack: [
+"React",
+"Axios",
+"Context API",
+"React Router"
+]
+},
+
+{
+title: "Anime Blog",
+stack: [
+"Node.js",
+"Express.js",
+"EJS",
+"Bootstrap"
+]
+},
+
+{
+title: "GitHub Portfolio",
+stack: [
+"React",
+"SCSS",
+"Responsive Design"
+]
+}
+
+];
+
+// --------------------------------------------------
+// 4. EDUCATION
+// --------------------------------------------------
+
+const education = {
+university: "IGNOU",
+degree: "Bachelor of Computer Applications (BCA)"
+};
+
+// --------------------------------------------------
+// 5. PROFILE
+// --------------------------------------------------
+
+const profile = {
+name: "Vivek Kumar Ray",
+role: "Aspiring Full Stack Developer",
+location: "India",
+status: "Open To Opportunities"
+};
+
+export default new DeveloperJourney();
+
+// --------------------------------------------------
+// TERMINAL OUTPUT
+// --------------------------------------------------
+
+$ vivek --status
+
+> Name: Vivek Kumar Ray
+> Degree: BCA (IGNOU)
+> Role: Aspiring Full Stack Developer
+> Current Focus: React + Node.js
+> Learning: Sheryians Coding School
+> Status: Open To Opportunities
+
+Loading Portfolio Assets...
+[||||||||||||||||||||||||||||] 100%
+
+> Ready.

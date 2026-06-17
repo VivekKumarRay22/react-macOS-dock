@@ -16,5 +16,9 @@
         max-width: 25rem; }
 
 #logic to render only if link present-->    {data.demoLink && <a href={data.demoLink}>demoLink</a>}
+
+
+used -- > import ReactMarkdown from "react-markdown"
+ & wrapped {markdown} in <ReactMarkdown>
     
 
