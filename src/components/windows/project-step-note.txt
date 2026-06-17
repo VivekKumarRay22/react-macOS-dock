@@ -23,5 +23,16 @@ used -- > import ReactMarkdown from "react-markdown"
 
  used --> npm i react-syntax-highlighter
  added css to note  & added scrollbar to windows 
-    
+ 
+
+ Created Resume section and integrated it into the application.
+- Added iframe/embed support to display PDF documents.
+- Applied the following styles to prevent unwanted page scrolling:
+
+  main {
+    overflow: hidden;
+    position: relative;
+  }
+
+- Ensured the application remains fixed within the viewport without showing scrollbars.
 

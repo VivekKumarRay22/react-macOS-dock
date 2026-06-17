@@ -6,6 +6,7 @@ import { Rnd } from 'react-rnd'
 import MacWindows from './components/windows/MacWindows'
 import Github from './components/Github'
 import Note from './components/Note'
+import Resume from './components/Resume'
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
       <Dock />
       <Github />
       <Note />
-
+      <Resume />
     </main>
   )
 }
