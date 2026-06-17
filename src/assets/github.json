@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "img": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+    "title": "React MacOS Dock",
+    "description": "A macOS-inspired interactive dock with smooth hover animations, draggable windows and responsive design.",
+    "tags": ["React ", "SCSS ", "JavaScript ", "UI Design ", "CSS Animations", "Responsive Design", "Vite", "Frontend"],
+    "repoLink": "",
+    "demoLink": ""
+  },
+  {
+    "id": 2,
+    "img": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    "title": "Product Store",
+    "description": "E-commerce application with product listing, filtering, routing and Context API state management.",
+    "tags": ["React", "Context API", "Axios", "React Router", "REST API", "JavaScript", "Frontend"],
+    "repoLink": "",
+    "demoLink": ""
+  },
+  {
+    "id": 3,
+    "img": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+    "title": "Movie Search App",
+    "description": "Movie discovery platform with search functionality and detailed movie information pages.",
+    "tags": ["React", "API", "Axios", "JavaScript", "Frontend", "Responsive UI"],
+    "repoLink": "",
+    "demoLink": ""
+  },
+  {
+    "id": 4,
+    "img": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+    "title": "Pokemon Explorer",
+    "description": "Pokemon browser application with search, filtering and detailed information pages.",
+    "tags": ["React", "Axios", "API Integration", "JavaScript", "Frontend"],
+    "repoLink": "",
+    "demoLink": ""
+  },
+  {
+    "id": 5,
+    "img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "title": "Todo Application",
+    "description": "Task management application with CRUD operations and local storage persistence.",
+    "tags": ["React", "JavaScript", "Local Storage", "CRUD", "Frontend"],
+    "repoLink": "",
+    "demoLink": ""
+  },
+  {
+    "id": 6,
+    "img": "https://images.unsplash.com/photo-1504639725590-34d0984388bd",
+    "title": "Notes Application",
+    "description": "A note-taking application with create, update and delete functionality.",
+    "tags": ["React", "Context API", "Local Storage", "JavaScript", "Frontend"],
+    "repoLink": "",
+    "demoLink": ""
+  },
+  {
+    "id": 7,
+    "img": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+    "title": "Weather App",
+    "description": "Real-time weather application using third-party weather APIs.",
+    "tags": ["React", "Axios", "REST API", "Frontend", "JavaScript"],
+    "repoLink": "",
+    "demoLink": ""
+  },
+  {
+    "id": 8,
+    "img": "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+    "title": "GitHub Profile Finder",
+    "description": "Search and explore GitHub profiles using GitHub REST APIs.",
+    "tags": ["React", "GitHub API", "Axios", "JavaScript", "Frontend"],
+    "repoLink": "",
+    "demoLink": ""
+  },
+  {
+    "id": 9,
+    "img": "https://images.unsplash.com/photo-1531482615713-2afd69097998",
+    "title": "Expense Tracker",
+    "description": "Track income and expenses with local storage support and analytics.",
+    "tags": ["React", "Charts", "JavaScript", "Local Storage", "Frontend"],
+    "repoLink": "",
+    "demoLink": ""
+  },
+  {
+    "id": 10,
+    "img": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+    "title": "Developer Portfolio",
+    "description": "Personal portfolio showcasing projects, skills and experience.",
+    "tags": ["React", "SCSS", "Framer Motion", "Responsive Design ", "Frontend"],
+    "repoLink": "",
+    "demoLink": ""
+  }
+]
