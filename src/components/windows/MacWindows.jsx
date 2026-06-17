@@ -8,8 +8,8 @@ const MacWindows = ({ children }) => {
             default={{
                 x: 50,
                 y: 50,
-                width: "40vw",
-                height: "40vh"
+                width: "30vw",
+                height: "45vh"
             }} >
             <div className="windows">
                 <div className="nav">

@@ -36,3 +36,4 @@ used -- > import ReactMarkdown from "react-markdown"
 
 - Ensured the application remains fixed within the viewport without showing scrollbars.
 
+h100% in windows -->resizable in height
