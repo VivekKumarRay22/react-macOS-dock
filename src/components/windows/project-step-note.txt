@@ -20,5 +20,8 @@
 
 used -- > import ReactMarkdown from "react-markdown"
  & wrapped {markdown} in <ReactMarkdown>
+
+ used --> npm i react-syntax-highlighter
+ added css to note  & added scrollbar to windows 
     
 

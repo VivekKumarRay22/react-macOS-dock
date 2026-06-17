@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import ReactMarkdown from "react-markdown"
-import MacWindows from './windows/MacWindows'
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
+import MacWindows from './windows/MacWindows'
+import "./note.scss"
 
 const Note = () => {
 
@@ -17,9 +20,9 @@ const Note = () => {
   return (
     <MacWindows>
       <div className="note-window">
-        {markdown ? <ReactMarkdown>
+        {markdown ? <SyntaxHighlighter language='typescript' style={docco}>
           {markdown}
-        </ReactMarkdown> : <p>loading...</p>}
+        </SyntaxHighlighter> : <p>loading...</p>}
       </div>
     </MacWindows>
   )

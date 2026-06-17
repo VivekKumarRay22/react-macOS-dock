@@ -53,7 +53,7 @@ class DeveloperJourney {
 
 public async SheryiansCodingSchool(): Promise<Progress> {
 
-```
+
 const role = "Full Stack Web Development Student";
 
 const learning = [
@@ -77,7 +77,7 @@ return {
   learning,
   projects
 };
-```
+
 
 }
 }
