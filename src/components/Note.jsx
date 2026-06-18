@@ -18,7 +18,7 @@ const Note = () => {
 
 
   return (
-    <MacWindows>
+    <MacWindows width='40vw' height='60vh'>
       <div className="note-window">
         {markdown ? <SyntaxHighlighter language='typescript' style={docco}>
           {markdown}
