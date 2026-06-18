@@ -6,7 +6,7 @@ import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import MacWindows from './windows/MacWindows'
 import "./note.scss"
 
-const Note = () => {
+const Note = ({windowName, setWindowsState}) => {
 
   const [markdown, setMarkdown] = useState("")
 
@@ -18,7 +18,7 @@ const Note = () => {
 
 
   return (
-    <MacWindows width='40vw' height='60vh'>
+    <MacWindows windowName={windowName} setWindowsState={setWindowsState} width='40vw' height='60vh'>
       <div className="note-window">
         {markdown ? <SyntaxHighlighter language='typescript' style={docco}>
           {markdown}

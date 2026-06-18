@@ -4,9 +4,9 @@ import TerminalPackage from "react-console-emulator";
 
 const Terminal = TerminalPackage.default;
 
-const Cli = () => {
+const Cli = ({windowName, setWindowsState}) => {
     return (
-        <MacWindows   >
+        <MacWindows windowName={windowName} setWindowsState={setWindowsState}   >
             <div className="cli-window">
 
                 <Terminal
@@ -163,17 +163,8 @@ Type "help" to view all available commands.
 
 Suggested Commands:
 
-about
-skills
-education
-projects
-github
-resume
-contact
-whoami
-ls
-pwd
-date
+about   | skills  | education | projects | github | date
+ resume | contact | whoami    | ls       | pwd   
 
 Happy Exploring 🚀
                     `}
