@@ -37,3 +37,22 @@ used -- > import ReactMarkdown from "react-markdown"
 - Ensured the application remains fixed within the viewport without showing scrollbars.
 
 h100% in windows -->resizable in height
+
+add spotify --> share-->embed link--
+changes to be made to add spotify
+## style= borderRadius: "12px"  -----> style={{ borderRadius: "12px" }} 
+## allowfullscreen="" -----> allowfullscreen
+
+
+
+### Terminal Window
+
+- Added a new Terminal application window.
+- Installed and integrated the `react-console-emulator` package.
+- Investigated rendering issues caused by incorrect module exports.
+- Discovered that the package was exporting an object instead of a React component.
+- Used the package's `default` export to correctly render the terminal component.
+- Learned the difference between default exports and named exports in JavaScript modules.
+- Debugged React errors using `console.log()` and `Object.keys()`.
+
+in cli.scss -> div[name="react-console-emulator"] {height: 100%;]
