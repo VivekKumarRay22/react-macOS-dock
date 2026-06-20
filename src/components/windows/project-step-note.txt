@@ -56,3 +56,11 @@ changes to be made to add spotify
 - Debugged React errors using `console.log()` and `Object.keys()`.
 
 in cli.scss -> div[name="react-console-emulator"] {height: 100%;]
+
+# Window Fullscreen Feature
+- Added fullscreen functionality using React useState.
+const [fullscreen, setFullscreen] = useState(false);
+- Implemented green window control button to toggle fullscreen mode.
+- Replaced Rnd default sizing behavior with controlled size and position props.
+<Rnd size={{  width: fullscreen ? "100vw" : width, height: fullscreen ? "100vh" : height}}
+  position={{ x: fullscreen ? 0 : 50, y: fullscreen ? 0 : 50}} > --> controlled component
